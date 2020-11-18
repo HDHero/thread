@@ -1,4 +1,4 @@
-package com.remous.thread.数据共享;
+package com.remous.thread.chapeter01;
 
 /**
  * @Author: Remous

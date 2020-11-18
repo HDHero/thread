@@ -1,4 +1,4 @@
-package com.remous.thread.数据共享.syncProj;
+package com.remous.thread.chapeter01.syncProj;
 
 /**
  * @Author: Remous

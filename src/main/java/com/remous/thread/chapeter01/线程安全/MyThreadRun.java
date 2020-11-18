@@ -1,4 +1,4 @@
-package com.remous.thread.数据共享.线程安全;
+package com.remous.thread.chapeter01.线程安全;
 
 /**
  * @Author: Remous
@@ -11,7 +11,7 @@ public class MyThreadRun {
         //数据不共享
         //runNotShare();
 
-        //数据共享
+        //chapeter01
         runShare();
     }
 
