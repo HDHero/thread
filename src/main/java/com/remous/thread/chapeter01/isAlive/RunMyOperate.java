@@ -38,10 +38,13 @@ package com.remous.thread.chapeter01.isAlive;
 /**
  * 4.this 与 Thread.currentThread（）不是同一个引用
  *
- *  线程在初始化对象的时候， this代表的当前对象MyThread，然后Thread在初始化对象的时候，会给线程起一个默认的初始名，所以this.getname()打印出来是“当前线程的名字：Thread-0”。
- *  (1) 在执行“ thread.start();”时，因为**myThread作为参数传入Thread中，其实是myThread委托thread去执行；**所以在执行–“ thread.setName(“C”);”，通过“**Thread.currentThread().getName()”**打印出来时“当前线程的名字：C”。
+ *  线程在初始化对象的时候， this代表的当前对象CountOperate，然后Thread在初始化对象的时候，会给线程起一个默认的初始名，
+ *  所以this.getname()打印出来是“当前线程的名字：Thread-0”。
+ *  (1) 在执行“ thread.start();”时，因为CountOperate作为参数传入Thread中，其实是myThread委托thread去执行；
+ *  **所以在执行–“ thread.setName(“Remous”);”，通过“**Thread.currentThread().getName()”**
+ *  打印出来时“当前线程的名字：Remous”。
  *
- *  (2) 但是此时执行this.getname（）仍然代表的是Mythread这个对象，所以打印出来的仍然是“当前线程的名字：Thread-0”
+ *  (2) 但是此时执行this.getName（）仍然代表的是CountOperate这个对象，所以打印出来的仍然是“当前线程的名字：Thread-0”
  *
  */
 
