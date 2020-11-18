@@ -1,4 +1,4 @@
-package com.remous.thread.chapeter01.currentThread;
+package com.remous.thread.chapeter01.currentThread03;
 
 /**
  * @Author: Remous
@@ -11,7 +11,7 @@ public class MyCurrentThread {
     }
 
     /**
-     * currentThread()方法可返回代码正在被哪个线程调用的信息
+     * currentThread03()方法可返回代码正在被哪个线程调用的信息
      */
     private static void testCurrentMethod() {
         System.out.println(Thread.currentThread().getName());

@@ -1,4 +1,4 @@
-package com.remous.thread.chapeter01.syncProj;
+package com.remous.thread.chapeter01.syncProj02;
 
 /**
  * @Author: Remous
@@ -19,7 +19,7 @@ public class SafeSale extends Thread{
 //        super.run();
 //
 //        count--;
-//        System.out.println("由 "+this.currentThread().getName()+ "计算,count="+count);
+//        System.out.println("由 "+this.currentThread03().getName()+ "计算,count="+count);
 //    }
     @Override
     public  void run() {

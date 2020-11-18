@@ -1,4 +1,4 @@
-package com.remous.thread.chapeter01.sleep;
+package com.remous.thread.chapeter01.sleep06;
 
 /**
  * @Author: Remous

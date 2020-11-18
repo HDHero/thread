@@ -1,4 +1,4 @@
-package com.remous.thread.chapeter01.syncProj;
+package com.remous.thread.chapeter01.syncProj02;
 
 /**
  * @Author: Remous

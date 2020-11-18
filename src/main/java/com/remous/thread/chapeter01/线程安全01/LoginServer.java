@@ -1,4 +1,4 @@
-package com.remous.thread.chapeter01.线程安全;
+package com.remous.thread.chapeter01.线程安全01;
 
 /**
  * @Author: Remous
