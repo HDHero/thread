@@ -24,7 +24,6 @@ public class Client {
 
         //System.out.println("金额还剩:" + sellThreadA.balance);
 
-
     }
 
 }
