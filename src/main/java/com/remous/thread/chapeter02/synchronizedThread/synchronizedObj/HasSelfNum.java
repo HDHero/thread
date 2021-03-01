@@ -9,7 +9,7 @@ public class HasSelfNum {
 
     private int num;
 
-    public void addNum(String target) {
+    public synchronized void addNum(String target) {
         if (target.equals("a")) {
             num = 100;
             System.out.println("target: " + target + " num is" + num);
